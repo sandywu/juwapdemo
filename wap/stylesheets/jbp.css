@@ -1,0 +1,68 @@
+/* line 3, ../sass/jbp.scss */
+.JBP-thumb li {
+  height: 80px;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0px 35px;
+}
+/* line 9, ../sass/jbp.scss */
+.JBP-thumb li .logo {
+  margin-top: 20px;
+  width: 39px;
+  height: 39px;
+  background: url(http://placehold.it/40x40);
+  float: left;
+  margin-right: 25px;
+}
+/* line 18, ../sass/jbp.scss */
+.JBP-thumb li .inf {
+  float: left;
+  margin-top: 20px;
+}
+/* line 22, ../sass/jbp.scss */
+.JBP-thumb li .inf h3 {
+  margin-top: 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 28, ../sass/jbp.scss */
+.JBP-thumb li .inf h4 {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 35, ../sass/jbp.scss */
+.JBP-thumb li i {
+  float: right;
+  background: url(http://img02.taobaocdn.com/tps/i2/T1I.pyFiFeXXXEI6I.-13-22.png) center center no-repeat;
+  width: 6.5px;
+  height: 11px;
+  background-size: 100% 100%;
+  margin-top: 30px;
+}
+/* line 46, ../sass/jbp.scss */
+.JBP-thumb .jmp h3 {
+  color: #6a237f;
+}
+/* line 50, ../sass/jbp.scss */
+.JBP-thumb .jmp .logo {
+  background: url(http://img01.taobaocdn.com/tps/i1/T1axNPFbXaXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+/* line 57, ../sass/jbp.scss */
+.JBP-thumb .jzz h3 {
+  color: #9e5f44;
+}
+/* line 61, ../sass/jbp.scss */
+.JBP-thumb .jzz .logo {
+  background: url(http://img03.taobaocdn.com/tps/i3/T12lxNFiXdXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+/* line 68, ../sass/jbp.scss */
+.JBP-thumb .jt h3 {
+  color: #8db46d;
+}
+/* line 72, ../sass/jbp.scss */
+.JBP-thumb .jt .logo {
+  background: url(http://img02.taobaocdn.com/tps/i2/T1F4ROFjNbXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}

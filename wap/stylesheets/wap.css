@@ -1,0 +1,509 @@
+/* line 1, ../sass/brand.scss */
+.brand-thumb-list-block {
+  width: 320px;
+  margin: auto;
+}
+/* line 10, ../sass/brand.scss */
+.brand-thumb-list-block li {
+  overflow: hidden;
+  padding: 10px;
+  border-bottom: 1px solid #ececec;
+}
+/* line 15, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf {
+  width: 100px;
+  float: left;
+}
+/* line 19, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .sale {
+  padding: 1px 0px;
+}
+/* line 23, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .sale .pic {
+  width: 75px;
+  height: 30px;
+  margin: 5px auto;
+}
+/* line 29, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .sale .tit {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px auto;
+}
+/* line 37, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .discount {
+  overflow: hidden;
+}
+/* line 40, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .discount .num {
+  float: left;
+  color: #c7223d;
+  margin-left: 5px;
+  margin-right: 3px;
+  font-size: 30px;
+  font-family: "Arial";
+  padding-top: 5px;
+  margin-left: 13px;
+}
+/* line 52, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .discount .mark {
+  float: left;
+  font-size: 12px;
+  line-height: 13px;
+  padding-top: 10px;
+  color: #999;
+}
+/* line 59, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-inf .discount .mark em {
+  color: #c7223d;
+}
+/* line 66, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-img {
+  position: relative;
+  float: left;
+  width: 200px;
+}
+/* line 71, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-img .pic {
+  width: 100%;
+  height: 100%;
+}
+/* line 76, ../sass/brand.scss */
+.brand-thumb-list-block li .brand-img .txt {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  height: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0px;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+}
+/* line 91, ../sass/brand.scss */
+.brand-thumb-list-block li > a {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 97, ../sass/brand.scss */
+.brand-banner {
+  width: auto;
+}
+/* line 100, ../sass/brand.scss */
+.brand-banner .brand-pic {
+  position: relative;
+}
+/* line 105, ../sass/brand.scss */
+.brand-banner .brand-pic .img img {
+  min-width: 320px;
+  max-width: 100%;
+  width: 100%;
+}
+/* line 113, ../sass/brand.scss */
+.brand-banner .brand-pic .txt {
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  padding-left: 5px;
+  color: #fff;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+/* line 127, ../sass/brand.scss */
+.brand-banner .brand-inf {
+  height: 45px;
+  overflow: hidden;
+  padding: 0px 10px;
+  border-bottom: 1px solid #b4b4b4;
+  background-image: linear-gradient(bottom, #eeeeee 17%, #fafafa 40%);
+  background-image: -o-linear-gradient(bottom, #eeeeee 17%, #fafafa 40%);
+  background-image: -moz-linear-gradient(bottom, #eeeeee 17%, #fafafa 40%);
+  background-image: -webkit-linear-gradient(bottom, #eeeeee 17%, #fafafa 40%);
+  background-image: -ms-linear-gradient(bottom, #eeeeee 17%, #fafafa 40%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.17, #eeeeee), color-stop(0.4, #fafafa));
+}
+/* line 148, ../sass/brand.scss */
+.brand-banner .brand-inf .img {
+  float: left;
+}
+/* line 152, ../sass/brand.scss */
+.brand-banner .brand-inf .discount {
+  float: right;
+  overflow: hidden;
+}
+/* line 157, ../sass/brand.scss */
+.brand-banner .brand-inf .discount .num {
+  float: left;
+  color: #c7223d;
+  margin-left: 5px;
+  margin-right: 3px;
+  font-size: 30px;
+  font-family: "Arial";
+  padding-top: 5px;
+  margin-left: 13px;
+}
+/* line 169, ../sass/brand.scss */
+.brand-banner .brand-inf .discount .mark {
+  float: left;
+  font-size: 12px;
+  line-height: 13px;
+  padding-top: 10px;
+  color: #999;
+}
+/* line 176, ../sass/brand.scss */
+.brand-banner .brand-inf .discount .mark em {
+  color: #c7223d;
+}
+
+/* line 3, ../sass/jbp.scss */
+.JBP-thumb li {
+  height: 80px;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0px 35px;
+}
+/* line 9, ../sass/jbp.scss */
+.JBP-thumb li .logo {
+  margin-top: 20px;
+  width: 39px;
+  height: 39px;
+  background: url(http://placehold.it/40x40);
+  float: left;
+  margin-right: 25px;
+}
+/* line 18, ../sass/jbp.scss */
+.JBP-thumb li .inf {
+  float: left;
+  margin-top: 20px;
+}
+/* line 22, ../sass/jbp.scss */
+.JBP-thumb li .inf h3 {
+  margin-top: 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 28, ../sass/jbp.scss */
+.JBP-thumb li .inf h4 {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 35, ../sass/jbp.scss */
+.JBP-thumb li i {
+  float: right;
+  background: url(http://img02.taobaocdn.com/tps/i2/T1I.pyFiFeXXXEI6I.-13-22.png) center center no-repeat;
+  width: 6.5px;
+  height: 11px;
+  background-size: 100% 100%;
+  margin-top: 30px;
+}
+/* line 46, ../sass/jbp.scss */
+.JBP-thumb .jmp h3 {
+  color: #6a237f;
+}
+/* line 50, ../sass/jbp.scss */
+.JBP-thumb .jmp .logo {
+  background: url(http://img01.taobaocdn.com/tps/i1/T1axNPFbXaXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+/* line 57, ../sass/jbp.scss */
+.JBP-thumb .jzz h3 {
+  color: #9e5f44;
+}
+/* line 61, ../sass/jbp.scss */
+.JBP-thumb .jzz .logo {
+  background: url(http://img03.taobaocdn.com/tps/i3/T12lxNFiXdXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+/* line 68, ../sass/jbp.scss */
+.JBP-thumb .jt h3 {
+  color: #8db46d;
+}
+/* line 72, ../sass/jbp.scss */
+.JBP-thumb .jt .logo {
+  background: url(http://img02.taobaocdn.com/tps/i2/T1F4ROFjNbXXamxmLo-78-78.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 1, ../sass/city.scss */
+.city-current {
+  height: 45px;
+  background: #f8f8f8;
+  padding: 0px 10px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #000;
+}
+/* line 9, ../sass/city.scss */
+.city-current .loc {
+  float: left;
+  background: url(http://img04.taobaocdn.com/tps/i4/T1PaRPFmBaXXaawQLa-22-26.png) center center no-repeat;
+  width: 11px;
+  margin-right: 8px;
+  margin-top: 15px;
+  height: 13px;
+  background-size: 100% 100%;
+}
+/* line 19, ../sass/city.scss */
+.city-current .location {
+  float: left;
+}
+/* line 23, ../sass/city.scss */
+.city-current .tick {
+  float: right;
+  background: url(http://img01.taobaocdn.com/tps/i1/T1LRNOFlpaXXXBbLLb-24-25.png) center center no-repeat;
+  width: 12px;
+  height: 12.5px;
+  background-size: 100% 100%;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+/* line 34, ../sass/city.scss */
+.u-tit {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  background: #eee;
+  color: #999;
+  padding: 0px 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+/* line 44, ../sass/city.scss */
+.u-city-list {
+  font-size: 16px;
+}
+/* line 48, ../sass/city.scss */
+.u-city-list ul {
+  overflow: hidden;
+}
+/* line 52, ../sass/city.scss */
+.u-city-list li {
+  line-height: 45px;
+  height: 45px;
+  color: #000;
+  list-style-type: none;
+  border-bottom: 1px solid #dedede;
+}
+/* line 59, ../sass/city.scss */
+.u-city-list li a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #000;
+}
+
+/* line 7, ../sass/wap.scss */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/* line 11, ../sass/wap.scss */
+body {
+  font-family: "Microsoft Yahei";
+}
+
+/* line 15, ../sass/wap.scss */
+* {
+  font-family: "Microsoft Yahei";
+}
+
+/* line 19, ../sass/wap.scss */
+.ju-list-tab {
+  background: #fff;
+}
+/* line 23, ../sass/wap.scss */
+.ju-list-tab ul {
+  border: 1px solid #ececec;
+  display: table;
+  width: 100%;
+}
+/* line 28, ../sass/wap.scss */
+.ju-list-tab ul li + li a {
+  border-left: 1px solid #ececec;
+}
+/* line 32, ../sass/wap.scss */
+.ju-list-tab ul li {
+  margin: 0;
+  float: left;
+  padding: 0;
+}
+/* line 37, ../sass/wap.scss */
+.ju-list-tab ul li a {
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  color: #999;
+  background: #fff;
+  height: 40px;
+}
+/* line 49, ../sass/wap.scss */
+.ju-list-tab ul li.current a {
+  color: #df5271;
+}
+/* line 57, ../sass/wap.scss */
+.ju-list-tab.tab-4 li {
+  width: 25%;
+}
+
+/* line 64, ../sass/wap.scss */
+.item-type {
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  padding: 1px 2px;
+  position: relative;
+  top: -2px;
+}
+/* line 73, ../sass/wap.scss */
+.item-type.not-begin {
+  background: #449900;
+}
+/* line 77, ../sass/wap.scss */
+.item-type.chance {
+  background: #3b8bc8;
+}
+/* line 82, ../sass/wap.scss */
+.item-type.soldout {
+  background: #cccccc;
+}
+/* line 86, ../sass/wap.scss */
+.item-type.order {
+  background: #ee8800;
+}
+
+/* line 93, ../sass/wap.scss */
+.u-list-block .list li {
+  width: auto;
+  padding: 10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* line 94, ../sass/wap.scss */
+.u-list-block .list li .item-pic {
+  padding: 4px;
+  border: 1px solid #dcdcdc;
+  font-size: 0px;
+  line-height: 0px;
+  height: 72px;
+}
+
+/* line 95, ../sass/wap.scss */
+.u-list-block .list li .item-info {
+  -webkit-box-flex: 1;
+  margin-left: 9px;
+}
+
+/* line 96, ../sass/wap.scss */
+.u-list-block .list li .item-info .good-name {
+  height: 35px;
+  padding-right: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* line 104, ../sass/wap.scss */
+.u-list-block .list li .item-info .good-name {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* line 105, ../sass/wap.scss */
+.u-list-block .list li .item-info .pirce {
+  margin-top: 3px;
+  height: 19px;
+}
+
+/* line 106, ../sass/wap.scss */
+.u-list-block .list li .item-info .pirce .promote-price {
+  color: #c3213c;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 107, ../sass/wap.scss */
+.u-list-block .list li .item-info .pirce .cost-price {
+  padding-left: 7px;
+  font-size: 11px;
+  color: #999;
+}
+
+/* line 108, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now {
+  margin-right: 20px;
+  margin-top: 7px;
+  height: 18px;
+}
+
+/* line 109, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .buy-count {
+  float: left;
+  height: 18px;
+  line-height: 18px;
+  color: #999;
+  font-size: 11px;
+}
+
+/* line 110, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .status {
+  float: right;
+  width: 60px;
+  height: 18px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+/* line 111, ../sass/wap.scss */
+.u-list-block .list li > a {
+  overflow: hidden;
+  text-decoration: none;
+  display: -webkit-box;
+}
+
+/* line 116, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .upcoming {
+  background-color: #669900;
+}
+
+/* line 117, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .purchase {
+  background-color: #FF4400;
+}
+
+/* line 118, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .on-sale {
+  background-color: #3399CC;
+}
+
+/* line 119, ../sass/wap.scss */
+.u-list-block .list li .item-info .buy-now .over, .u-list-block .list li .item-info .buy-now .sold-out {
+  background-color: #999999;
+}
+
+/* line 120, ../sass/wap.scss */
+.tips {
+  margin: 17px 0 0 40px;
+  width: 142px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+  padding: 34px 80px 0 0;
+  color: #666666;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA0CAMAAAAqqk/TAAAAA3NCSVQICAjb4U/gAAAAUVBMVEXFxcXd3d3t7e3JycnT09P39/fl5eXMzMzz8/PX19fh4eHn5+fPz8/5+fnp6enHx8fx8fHZ2dn19fX////V1dXf39/b29vj4+Pv7+/r6+vR0dE8rm/0AAAAG3RSTlP/////////////////////////AP////////8sfeJeAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADA2LzA2LzEyr3Pd6wAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAIwSURBVFiFrZbplqsgDICD7FtBbWun7/+gA71z21EC2g45xx/m4Ed2A3NfmaAvT5HOQDb2BQroayEPQXQFMoBTT6CAvkBOE1B1BCaHAfgBIB+stSe1dyw7fARoWfKEpseJ9rXZYZB+Bygg3C338+xvGljjoH84vAdUDq4vVyNtELl8AF0TKMCtIhfBNkz8ykA2N4AGyEYzysb1JExRkwZwgSILkdZzPfyYXwUKxD9PT7XjHPTcBEa4INpQDSKjvgn08o5pqxZe4X8wKkACHtEqGvHjAp434UCOF4ig2DWZ98ofDtR4fTAsDo85/XpBgb6smCwcz8mKhwMFGsHZoB6veThwdJjWo5VENt6gQHbFtBfg5SXnbfpw4LaJs3AwhU7JsC2k40BGC1UaR4XRKPB8LnUWbhuN18U4qgFNKFS8+NhSur2iCuRFHXq5SfzEYERrC++UcVtxOqyCxQm4Af2yNhykXBEJ/P7ck7TD4F1dBaogp9fbatgqA5TUcPUBO7nwjKOF5akfNARTFvg+MLtJBf9n3w/ax5FSaevWtYGzGimwZSC5Q7wahA7hbnY3kuaPnn+NecFwzkkK4Wx3aXvAZNkd7CCWxca2o0eBUcojVh0GGmBHDTsCTN1VDqw/ABeQlZ/mR8CbhEY7vA1Uabt8NxsN4KRBVmbJB0B/YyCrS9bbQGUcsD/gVkCvTOow8mHsVkD/6P20w+uPQ/cCsiROhiC1ONyvTaBOcrGR94Bl+QYUDCAdkVQG9AAAAABJRU5ErkJggg==) no-repeat scroll right 0;
+}
