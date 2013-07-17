@@ -1,0 +1,182 @@
+.brand-thumb-list-block {
+    width:320px;
+    margin:auto;
+    
+    
+    ul {
+        
+    }
+    
+    li {
+        overflow:hidden;
+        padding:10px;
+        border-bottom:1px solid #ececec;
+        
+        .brand-inf {
+            width:100px;
+            float:left;
+            
+            .sale {
+                
+                padding:1px 0px;
+                
+                .pic {
+                    width:75px;
+                    height:30px;
+                    margin:5px auto;
+                }
+                
+                .tit {
+                    color:#666;
+                    font-size:12px;
+                    text-align:center;
+                    margin:0px auto;
+                }
+            }
+            
+            .discount {
+                overflow:hidden;
+                
+                .num {
+                    float:left;
+                    color:#c7223d;
+                    margin-left:5px;
+                    margin-right:3px;
+                    font-size:30px;
+                    font-family:"Arial";
+                    padding-top:5px;
+                    margin-left:13px;
+                    
+                }
+                
+                .mark {
+                    float:left;
+                    font-size:12px;
+                    line-height:13px;
+                    padding-top:10px;
+                    color:#999;
+                    
+                    em {
+                        color:#c7223d;
+                    }
+                }
+            }
+        }
+        
+        .brand-img {
+            position:relative;
+            float:left;
+            width:200px;
+            
+            .pic {
+                width:100%;
+                height:100%;
+            }        
+            
+            .txt {
+                position:absolute;
+                width:100%;
+                color:#fff;
+                font-size:12px;
+                line-height:18px;
+                height:18px;
+                background:rgba(0,0,0,0.5);
+                bottom:0px;
+                padding-left:5px;
+                -webkit-box-sizing: border-box;
+            }
+        }
+    }
+    
+    li > a {
+        display:block;
+        text-decoration:none;
+    }
+}
+
+.brand-banner {
+    width:auto;
+    
+    .brand-pic {
+        position:relative;
+        
+        .img {
+            
+            img {
+                min-width:320px;
+                max-width:100%;
+                width:100%;                
+            }
+
+        }
+        
+        .txt {
+            height:20px;
+            background:rgba(0,0,0,0.5);
+            font-size:12px;
+            width:100%;
+            -webkit-box-sizing: border-box;            
+            padding-left:5px;
+            color:#fff;
+            line-height:20px;
+            position:absolute;
+            bottom:0px;
+        }
+    }
+    
+    .brand-inf {
+        height:45px;
+        overflow:hidden;
+        padding:0px 10px;
+        border-bottom:1px solid #b4b4b4;
+        
+        
+        background-image: linear-gradient(bottom, rgb(238,238,238) 17%, rgb(250,250,250) 40%);
+        background-image: -o-linear-gradient(bottom, rgb(238,238,238) 17%, rgb(250,250,250) 40%);
+        background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 17%, rgb(250,250,250) 40%);
+        background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 17%, rgb(250,250,250) 40%);
+        background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 17%, rgb(250,250,250) 40%);
+
+        background-image: -webkit-gradient(
+        	linear,
+        	left bottom,
+        	left top,
+        	color-stop(0.17, rgb(238,238,238)),
+        	color-stop(0.4, rgb(250,250,250))
+        );
+        
+        .img {
+            float:left;
+        }
+        
+        .discount {
+            float:right;
+            
+            overflow:hidden;
+            
+            .num {
+                float:left;
+                color:#c7223d;
+                margin-left:5px;
+                margin-right:3px;
+                font-size:30px;
+                font-family:"Arial";
+                padding-top:5px;
+                margin-left:13px;
+                
+            }
+            
+            .mark {
+                float:left;
+                font-size:12px;
+                line-height:13px;
+                padding-top:10px;
+                color:#999;
+                
+                em {
+                    color:#c7223d;
+                }
+            }
+        }
+    }
+}

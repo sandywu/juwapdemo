@@ -1,0 +1,67 @@
+/* line 1, ../sass/city.scss */
+.city-current {
+  height: 45px;
+  background: #f8f8f8;
+  padding: 0px 10px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #000;
+}
+/* line 9, ../sass/city.scss */
+.city-current .loc {
+  float: left;
+  background: url(http://img04.taobaocdn.com/tps/i4/T1PaRPFmBaXXaawQLa-22-26.png) center center no-repeat;
+  width: 11px;
+  margin-right: 8px;
+  margin-top: 15px;
+  height: 13px;
+  background-size: 100% 100%;
+}
+/* line 19, ../sass/city.scss */
+.city-current .location {
+  float: left;
+}
+/* line 23, ../sass/city.scss */
+.city-current .tick {
+  float: right;
+  background: url(http://img01.taobaocdn.com/tps/i1/T1LRNOFlpaXXXBbLLb-24-25.png) center center no-repeat;
+  width: 12px;
+  height: 12.5px;
+  background-size: 100% 100%;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+/* line 34, ../sass/city.scss */
+.u-tit {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  background: #eee;
+  color: #999;
+  padding: 0px 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+/* line 44, ../sass/city.scss */
+.u-city-list {
+  font-size: 16px;
+}
+/* line 48, ../sass/city.scss */
+.u-city-list ul {
+  overflow: hidden;
+}
+/* line 52, ../sass/city.scss */
+.u-city-list li {
+  line-height: 45px;
+  height: 45px;
+  color: #000;
+  list-style-type: none;
+  border-bottom: 1px solid #dedede;
+}
+/* line 59, ../sass/city.scss */
+.u-city-list li a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #000;
+}

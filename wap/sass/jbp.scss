@@ -1,0 +1,79 @@
+.JBP-thumb {
+    
+    li {
+        
+        height:80px;
+        border-bottom:1px solid #dcdcdc;
+        padding:0px 35px;
+        
+        .logo {
+            margin-top:20px;
+            width:39px;
+            height:39px;
+            background:url(http://placehold.it/40x40);
+            float:left;
+            margin-right:25px;
+        }
+        
+        .inf {
+            float:left;
+            margin-top:20px;  
+            
+            h3 {
+                margin-top:1px;
+                font-size:18px;
+                font-weight:bold;
+            }   
+            
+            h4 {
+                margin-top:8px;
+                font-size:12px;
+                color:#999;
+            }                   
+        }
+        
+        i {
+            float:right;
+            background:url(http://img02.taobaocdn.com/tps/i2/T1I.pyFiFeXXXEI6I.-13-22.png) center center no-repeat;
+            width:6.5px;
+            height:11px;
+            background-size:100% 100%;
+            margin-top:30px;
+        }
+    }
+    
+    .jmp {
+        h3 {
+            color:#6a237f;
+        }
+        
+        .logo {
+            background:url(http://img01.taobaocdn.com/tps/i1/T1axNPFbXaXXamxmLo-78-78.png) center center no-repeat;
+            background-size:100% 100%;
+        }
+    }
+    
+    .jzz { 
+        h3 {
+            color:#9e5f44;
+        }
+        
+        .logo {
+            background:url(http://img03.taobaocdn.com/tps/i3/T12lxNFiXdXXamxmLo-78-78.png) center center no-repeat;
+            background-size:100% 100%;            
+        }
+    }
+    
+    .jt {
+        h3 {
+            color:#8db46d;
+        }
+        
+        .logo {
+            background:url(http://img02.taobaocdn.com/tps/i2/T1F4ROFjNbXXamxmLo-78-78.png) center center no-repeat;
+            background-size:100% 100%;            
+        }
+    }
+    
+
+}
